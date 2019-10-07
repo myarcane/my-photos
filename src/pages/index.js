@@ -118,7 +118,7 @@ export default class FlickrFeed extends Component {
     }
   }
 
-  componentWillMount() {
+  componentDidMount() {
     window.addEventListener("wheel", this.onScroll)
   }
 
